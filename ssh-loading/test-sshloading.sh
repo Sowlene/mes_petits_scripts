@@ -1,23 +1,15 @@
 #!/bin/bash
-
 for i in 1 2 3
-do
-  echo "TOC"
-  sleep 1
+do 
+ for i in 1 2 3
+  do
+   echo "TOC"
+   sleep 1
+  done
+echo ""
+echo "[[ $USER ]]"
+echo ""
 done
-echo $USER
 
-
-echo "XXXXXXXXXXX"
-
-echo "One to rule them all"
-sleep 3
-echo "."
-sleep 1
-echo ". ."
-sleep 1
-echo ". . ."
-sleep 1
-echo ". . . ."
-sleep 1
-echo ". . . . ."
+#echo "Something like LOTH"
+#echo "YOU SHOULDN'T PASS"
