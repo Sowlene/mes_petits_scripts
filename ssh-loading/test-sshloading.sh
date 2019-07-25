@@ -3,13 +3,19 @@ for i in 1 2 3
 do 
  for i in 1 2 3
   do
-   echo "TOC"
+   echo "			TOC"
    sleep 1
   done
 echo ""
-echo "[[ $USER ]]"
+echo "			~~~[ $USER ]~~~"
 echo ""
 done
+
+echo "Please Sheldon go back into Big Bang theorie !"
+echo "I just need your password silly ..."
+
+export SSH_AUTH_SOCK=~/.ssh/ssh_auth_sock
+ssh-add -l > /dev/null || ssh-add
 
 #echo "Something like LOTH"
 #echo "YOU SHOULDN'T PASS"
