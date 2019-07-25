@@ -4,10 +4,11 @@ do
  for i in 1 2 3
   do
    echo "			TOC"
-   sleep 1
+   sleep 0.5
   done
 echo ""
 echo "			~~~[ $USER ]~~~"
+sleep 0.5
 echo ""
 done
 
