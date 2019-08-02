@@ -1,0 +1,2 @@
+
+sshfs $USER@$FQDNSRV:/home/$CHOICEUSER /mnt/$MOUNTPOINT
